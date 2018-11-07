@@ -50,6 +50,10 @@ else
     ro.device.cache_dir=/cache
 endif
 
+# Subs OMS
+PRODUCT_PACKAGES += \
+    SubstratumSignature
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/bootleggers/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
