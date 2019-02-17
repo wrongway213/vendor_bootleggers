@@ -89,6 +89,12 @@ $(foreach f,$(wildcard vendor/bootleggers/prebuilt/common/etc/init/*.rc),\
 PRODUCT_COPY_FILES += \
     vendor/bootleggers/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
 
+#OP Cam
+PRODUCT_PACKAGES += \
+    OnePlusCamera \
+    OnePlusGallery \
+    OnePlusCameraService \
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
