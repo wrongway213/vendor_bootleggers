@@ -94,6 +94,7 @@ PRODUCT_PACKAGES += \
     OnePlusCamera \
     OnePlusGallery \
     OnePlusCameraService \
+    OnePlusFramework
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
